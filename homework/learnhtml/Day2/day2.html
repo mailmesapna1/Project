@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/R.jpeg">
+    <title>img tag and list tags and form tag</title>
+</head>
+<body>
+<div>
+    <!-- <img src="https://th.bing.com/th/id/R.48b666d6179cbf4cdd86b80bac7f0df5?rik=xULJFzGntGDtew&riu=http%3a%2f%2fwonderfulengineering.com%2fwp-content%2fuploads%2f2016%2f01%2fnature-wallpapers-38.jpg&ehk=dUtU7hvI%2bIv1ZAogg0%2b%2fznLW5KEYTsPob9LlywpnX1Q%3d&risl=&pid=ImgRaw&r=0" alt="this is alternate text"> -->
+<!-- // ordered list -->
+    <!-- <ol type="a">
+        <li>this is a first ol</li>
+        <li>this is a first ol</li>
+        <li>this is a first ol</li>
+        <li>this is a first ol</li>
+      <ul>
+        <li>this is a second ol</li>
+        <li>this is a second ol</li>
+      </ul>
+    </ol> -->
+<!-- // unordered list -->
+    <!-- <ul type="square">
+        <li>this is a first item in ul</li>
+        <li>this is a first item in ul</li>
+        <li>this is a first item in ul</li>
+        <li>this is a first item in ul</li>
+    </ul> -->
+    
+<!--     detailed explanation of above code -->
+    
+    <!--<a></a> tag is used to insert links in our web page  -->
+    <a href="https://github.com/" target="_blank">GO TO github</a>
+    <a href="https://google.com"> GO TO GOOGLE</a>
+    <a href="https://in.linkedin.com/" target="_blank">LINKED IN</a>
+    <!-- img tag is used to insert image in our web page -->
+    <img src="https://images.unsplash.com/photo-1632766557709-696303805973?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80" alt="internet is slow" width="500px" height="400px">
+    <!-- hr tag is used to insert a horizontal line in web page -->
+    <hr>
+    <!-- creating lists -->
+    <!-- ul tag is used to create unordered list  -->
+   <ul type="square">
+       <li>this is unordered first item</li>
+       <li>this is unordered second item</li>
+       <li>this is unorderedthird item</li>
+       <li>this is unorderedfourth item</li>
+   </ul>
+<!-- ol tag is used to create ordered list -->
+   <ol type="A">
+    <li>this is ordered first item</li>
+    <li>this is ordered second item</li>
+    <!-- nesting of list -->
+    <ul>
+        <li>this is also a list</li> 
+        <li>this is a second list item</li>
+    </ul>
+    <li>this is ordered third item</li>
+    <li>this is ordered fourth item</li>
+   </ol>
+   <hr>
+
+    <!-- forms -->
+    <form action="backend.js">
+        <div class="name" id="nam">
+            <label for="name"> Name:</label>
+            <input type="text" id="name">
+        </div>
+        <div class="name" id="number">
+            Age: <input type="number">
+        </div>
+        <div class="name">
+            <label for="email">Email:</label>
+             <input type="email" id="email" required>
+        </div>
+        <div class="password">
+           password: <input type="password" >
+        </div>
+        <div class="dob">
+            DOB: <input type="date" name="" id="">
+        </div>
+        <div>
+            Are you eligible?: <input type="checkbox" name="" id="" checked>
+        </div>
+        <!-- <div>
+           color picker: <input type="color" name="" id="">
+        </div> -->
+        <div>
+            Male : <input type="radio" name="gender" id=""> Female:<input type="radio" name="gender" id=""> Other: <input type="radio" name="gender" id=""> 
+        </div>
+        <div>
+            upload your image: <input type="file" >
+        </div>
+        <div>
+            <input type="reset" value="Reset Now">
+        </div>
+        <div>
+            <input type="submit" value="Submit Now">
+        </div>
+
+        <label><h2>Branch <select > 
+             <option>CSE</option>
+             <option>IT</option>
+             <option>ECE</option>
+             <option>MECH</option>
+      </select></h2></label>
+        </div>
+        <div>
+          <p> write your story: </p>  <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+     
+       <button type="reset">Reset Now</button>
+       <button type="submit">Submit Now</button>
+    </form>
+
+</div>
+
+
+</body>
+</html>

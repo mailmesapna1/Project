@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+#list{
+    border: 2px black solid;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.listitem{
+    display: inline-block;
+    margin:0 50px
+}
